@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "GraphQl Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "npm run compile && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Alex Kochenko",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.12.0",
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}
