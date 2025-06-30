@@ -10,7 +10,7 @@ const server = new ApolloServer({
   // resolvers -- functions that resolve the data
   resolvers,
 });
-console.log("Starting server...");
+console.log("Starting server... ");
 const { url } = await startStandaloneServer(server, {
   listen: { port: 4000 },
 });
